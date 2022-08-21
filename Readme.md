@@ -21,7 +21,7 @@
 # 👀 使用方法
 
 ## ⚡ このリポジトリをクローン
-```git clone hogehoge```  
+```git clone git@github.com:m-h-san/Okoshi.py.git```  
   
 ## 🚄 ESPNetを使用する場合
 ESPNet関係はnumpyなどを使うためpythonのバージョンは現在3.9.0でしか動作を確認していません(3.9.0よりいくつか上までは動きそうです)。  
@@ -35,7 +35,7 @@ ESPNetを使用する場合に依存するライブラリをインストール�
 ```python3 -m pip install torch```  
 ```python3 -m pip install espnet_model_zoo```  
   
-文を整形するために[GiNZA](https://megagonlabs.github.io/ginza/)を使用しているので、依存関係にあるそれをインストールしておきます。
+文を整形するために[GiNZA](https://megagonlabs.github.io/ginza/)を使用しているので、依存関係にあるそれをインストールしておきます。  
 ```python3 -m pip install -U ginza ja_ginza_electra```
 
 ### 🎬 ffmpegのインストール
@@ -54,7 +54,7 @@ Arch系OSなら
 pythonのバージョンはあまり関係ないと思いますが3.9.0でしかテストしていません。
 
 ### 🛰️ 依存ライブラリをクローン
-文を整形するために[GiNZA](https://megagonlabs.github.io/ginza/)を使用しているので、依存関係にあるそれをインストールしておきます。
+文を整形するために[GiNZA](https://megagonlabs.github.io/ginza/)を使用しているので、依存関係にあるそれをインストールしておきます。  
 ```python3 -m pip install -U ginza ja_ginza_electra```
 
 ### 🎬 ffmpegのインストール
